@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProgrammingLanguage"></activity>
+        <activity android:name=".javascriptActivity"></activity>
+        <activity android:name=".phpActivity" />
+        <activity android:name=".htmlActivity" />
+        <activity android:name=".JavaActivity" />
+        <activity android:name=".ProgrammingLanguage" />
         <activity android:name=".SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
