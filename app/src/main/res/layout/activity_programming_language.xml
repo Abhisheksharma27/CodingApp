@@ -32,6 +32,7 @@
                 android:orientation="horizontal"
                 android:weightSum="2"
                 android:baselineAligned="false">
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="160dp"
@@ -47,7 +48,8 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:src="@drawable/ic_java"
-                        />
+                        android:contentDescription="TODO" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -56,10 +58,16 @@
                         android:background="@color/colorPrimary"
                         android:text="@string/java"
                         android:textStyle="bold"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textAlignment="center"
                         android:textColor="#fff"
                         />
+
+                    <Button
+                        android:id="@+id/buttonJava"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -77,7 +85,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:src="@drawable/ic_html_5_logo"
-                        />
+                        android:contentDescription="TODO" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -155,7 +163,7 @@
                         android:padding="10dp"
                         android:layout_marginTop="35dp"
                         android:background="@color/colorPrimary"
-                        android:text="PHP"
+                        android:text="@string/php"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:textAlignment="center"
