@@ -8,6 +8,7 @@
     <string name="textview">TextView</string>
     <string name="submit">Submit</string>
     <string name="viewAll">View All Doubts</string>
+    <string name="doubt_list">Doubt List</string>
     <array name="languages">
         <item name="java">Java</item>
         <item name="html">HTML 5</item>

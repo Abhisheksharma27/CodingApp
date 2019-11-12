@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DoubtActivity"></activity>
+        <activity android:name=".DoubtsListActivity"></activity>
+        <activity android:name=".DoubtActivity" />
         <activity android:name=".javascriptActivity" />
         <activity android:name=".phpActivity" />
         <activity android:name=".htmlActivity" />

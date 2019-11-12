@@ -1,5 +1,6 @@
 package com.example.codingapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.database.FirebaseDatabase
@@ -55,6 +56,11 @@ class DoubtActivity : AppCompatActivity() {
                 Toast.makeText(this, "We have received your query, we will reply soon.", Toast.LENGTH_LONG).show()
 
             }
+        }
+
+        buttonViewAll.setOnClickListener{
+            val k = Intent(applicationContext, DoubtsListActivity::class.java)
+            startActivity(k)
         }
     }
 
