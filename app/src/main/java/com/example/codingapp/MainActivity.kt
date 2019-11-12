@@ -46,6 +46,10 @@ class MainActivity : AppCompatActivity() {
                 val j = Intent(applicationContext, DoubtActivity::class.java)
                 startActivity(j)
             }
+            if(position == 3){
+                val k = Intent(applicationContext, AboutUsActivity::class.java)
+                startActivity(k)
+            }
         }
     }
 

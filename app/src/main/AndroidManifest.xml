@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObjectOrientedJavaActivity"></activity>
+        <activity android:name=".AboutUsActivity"></activity>
+        <activity android:name=".ObjectOrientedJavaActivity" />
         <activity android:name=".DoubtsListActivity" />
         <activity android:name=".DoubtActivity" />
         <activity android:name=".javascriptActivity" />
