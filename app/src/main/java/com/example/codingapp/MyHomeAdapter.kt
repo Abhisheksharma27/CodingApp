@@ -9,18 +9,18 @@ import android.widget.ArrayAdapter
 import android.widget.TextView
 import org.w3c.dom.Text
 
-class MyHomeAdapter(var mCtx: Context, var resource:Int, var items: List<Model>)
-    :ArrayAdapter<Model>(mCtx, resource, items)
+class MyHomeAdapter(var myContext: Context, var resource:Int, var items: List<Model>)
+    :ArrayAdapter<Model>(myContext, resource, items)
 {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val layoutInflater:LayoutInflater = LayoutInflater.from(mCtx)
+        val layoutInflater:LayoutInflater = LayoutInflater.from(myContext)
 
         val view:View = layoutInflater.inflate(resource, null)
 
         val contentTextView: TextView = view.findViewById(R.id.content_textView)
-        var mItems: Model = items[position]
+        var myItems: Model = items[position]
 
-        contentTextView.text= mItems.title
+        contentTextView.text= myItems.title
 
         return view
     }

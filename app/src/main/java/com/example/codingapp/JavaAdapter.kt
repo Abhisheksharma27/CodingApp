@@ -7,20 +7,20 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
 
-class JavaAdapter (var mCtx: Context, var resource:Int, var items: List<JavaModel>)
+class JavaAdapter (var myContext: Context, var resource:Int, var items: List<JavaModel>)
 
-    : ArrayAdapter<JavaModel>(mCtx, resource, items)
+    : ArrayAdapter<JavaModel>(myContext, resource, items)
 {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val layoutInflater: LayoutInflater = LayoutInflater.from(mCtx)
+        val layoutInflater: LayoutInflater = LayoutInflater.from(myContext)
 
         val view: View = layoutInflater.inflate(resource, null)
 
         val contentTextView: TextView = view.findViewById(R.id.content_textView)
-        var mItems: JavaModel = items[position]
+        var myItems: JavaModel = items[position]
 
-        contentTextView.text= mItems.javaTitle
+        contentTextView.text= myItems.javaTitle
 
         return view
     }
