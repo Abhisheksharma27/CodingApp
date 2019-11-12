@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity() {
                 val i = Intent(applicationContext, ProgrammingLanguage::class.java)
                 startActivity(i)
             }
+            if(position == 1){
+                val j = Intent(applicationContext, DoubtActivity::class.java)
+                startActivity(j)
+            }
         }
     }
 
