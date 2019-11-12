@@ -14,7 +14,7 @@
         <activity android:name=".DoubtActivity" />
         <activity android:name=".javascriptActivity" />
         <activity android:name=".phpActivity" />
-        <activity android:name=".htmlActivity" />
+        <activity android:name=".HtmlActivity" />
         <activity android:name=".JavaActivity" />
         <activity android:name=".ProgrammingLanguage" />
         <activity android:name=".SignInActivity">

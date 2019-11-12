@@ -17,7 +17,7 @@ class ProgrammingLanguage : AppCompatActivity() {
         }
 
         htmlLayout.setOnClickListener{
-            val html = Intent(applicationContext, htmlActivity::class.java)
+            val html = Intent(applicationContext, HtmlActivity::class.java)
             startActivity(html)
         }
 
