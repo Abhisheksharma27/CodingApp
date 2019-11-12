@@ -9,6 +9,9 @@
     <string name="submit">Submit</string>
     <string name="viewAll">View All Doubts</string>
     <string name="doubt_list">Doubt List</string>
+    <string name="log_out">Log Out</string>
+    <string name="joseph">Seunghwan Kim</string>
+    <string name="abhishek">Abhishek Sharma</string>
     <array name="languages">
         <item name="java">Java</item>
         <item name="html">HTML 5</item>

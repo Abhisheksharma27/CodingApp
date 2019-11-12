@@ -7,6 +7,7 @@ import android.os.Bundle
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_sign_in.*
 
 class SignInActivity : AppCompatActivity() {
 
@@ -54,6 +55,16 @@ class SignInActivity : AppCompatActivity() {
                 // sign-in flow using the back button. Otherwise check
                 // response.getError().getErrorCode() and handle the error.
                 // ...
+            }
+        }
+
+        buttonSignOut.setOnClickListener{
+            AuthUI.getInstance().signOut(this).addOnCompleteListener{
+
+                //again prompting login.
+                val o = Intent(applicationContext, SignInActivity::class.java)
+                startActivity(o)
+
             }
         }
     }
