@@ -17,5 +17,5 @@ Authentication will be added to the application
 
 Social media logins including microsoft, gmail and facebook logins to be added in the real application.
 
-Android Studio has been used as the IDE for applicatoion development.
+Android Studio has been used as the IDE for applicatoion development. 
 
