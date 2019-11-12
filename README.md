@@ -1,23 +1,19 @@
-# CodingApp
-This application has been designed to act asan utility for aspiring programmers to get a strong grip on programming fundamentals
-The major advantage is we have added 3 languages in our system and will be adding Kotlin very soon.
+#Coding Application
 
-The home page of app provides the route to every other page possible.
+In this part we have moved further ahead in the application.
 
-If an user has not login they have limited access to the app.
-Premium account have the access to the whole app and feature
+We have added authentication as our main home page and user can only operate the application if he/she has logged in the app.
 
-You need to sign up atleast to view some of the features like quizzes and start a trial.
+After that we have the front page which navigates to various fetaures of the app.
+The list has been populated using adapter as a bridge between data source and UI.
 
-For database we may use firebase.
+The languages tab show the languages menu where you can navigate to different languages and they further have their own options inside.
+We have still not added any info regarding the languages but would be adding them in the next version of the application.
 
-We will use APIs to improve the design
+The doubts section uses the firebase firestore utility. You can submit the doubt in this text box by selecting language and the doubt goes in the databse. You can see all the doubts ever asked in the query. We would be working on the feature to add answers staright in the app for review instead of sending personal emails as the solutions.
 
-Authentication will be added to the application
+Join us would ask for a file of type txt or .pdf . This part will also work in the next version
 
-Social media logins including microsoft, gmail and facebook logins to be added in the real application.
+About us shows the team members who created this project.
 
-Android Studio has been used as the IDE for applicatoion development. 
-
-Test to edit read me
 
