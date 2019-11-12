@@ -27,7 +27,7 @@ class ProgrammingLanguage : AppCompatActivity() {
         }
 
         phpLayout.setOnClickListener{
-            val php = Intent(applicationContext, phpActivity::class.java)
+            val php = Intent(applicationContext, PhpActivity::class.java)
             startActivity(php)
         }
     }
