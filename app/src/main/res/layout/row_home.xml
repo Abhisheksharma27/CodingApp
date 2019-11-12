@@ -13,7 +13,7 @@
         android:background="@color/colorPrimaryDark"
         android:fontFamily="sans-serif-condensed-medium"
         android:textColor="@color/colorNextPrimary"
-        android:textSize="48sp"
+        android:textSize="44sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
