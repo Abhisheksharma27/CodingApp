@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JavaGlossary"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTerm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor= "#222"
+            android:textSize="24sp"
+            android:text="Abstract"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="A Java keyword used in a class definition to specify that a class is not to be instantiated, rather inherited by other classes."
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewTerm2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Constructor"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="A pseudo-method that creates an object. In the Java programming language, constructors are instance methods with the same name as their class"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm3"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="Inheritance"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="The concept of classes automatically containing the variables and methods defined in their supertypes ."
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm4"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:text="Interface"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition4"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="A Java keyword used to define a collection of method definitions and constant values. It can later be implemented by classes that define this interface with the implements keyword."/>
+
+
+        <TextView
+            android:id="@+id/textViewTerm5"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Return Keyword"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition5"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A Java keyword used to finish the execution of a method. It can be followed by a value required by the method definition."/>
+
+        <TextView
+            android:id="@+id/textViewTerm6"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="SuperClass"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition6"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A class from which a particular class is derived, perhaps with one or more classes in between. See also subclass , subtype ."/>
+
+        <TextView
+            android:id="@+id/textViewTerm7"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="This Keyword"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition7"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A Java keyword that can be used to represent an instance of the class in which it appears. this can be used to access class variables and methods.
+"/>
+
+        <TextView
+            android:id="@+id/textViewTerm8"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Void"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition8"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A Java keyword used in method declarations to specify that the method does not return any value. void can also be used as a nonfunctional statement."/>
+
+        <TextView
+            android:id="@+id/textViewTerm9"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Method"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition9"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A function defined in a class. See also instance method , class method . Unless specified otherwise, a method is not static."/>
+
+    </LinearLayout>
+
+
+</ScrollView>

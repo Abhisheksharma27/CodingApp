@@ -32,6 +32,12 @@ class JavaActivity : AppCompatActivity() {
                 val i = Intent(applicationContext, ObjectOrientedJavaActivity::class.java)
                 startActivity(i)
             }
+
+            if(position == 2){
+                val j = Intent(applicationContext, JavaGlossary::class.java)
+                startActivity(j)
+            }
+
             if(position == 3){
                 val j = Intent(applicationContext, JavaQuiz::class.java)
                 startActivity(j)
