@@ -2,7 +2,7 @@ package com.example.codingapp
 
 class JavaScriptQuestions   {
     var myQuestions = arrayOf(
-        "Which is correct symbol of block in javascript?",
+        "Which is correct symbol of block in Javascript?",
         "what is this function that invoked when something happens?",
         "'This' is that referred to a variable, in what portion of a program that variable is visible. What is 'this'?",
         "How many times you could call pure function?"
