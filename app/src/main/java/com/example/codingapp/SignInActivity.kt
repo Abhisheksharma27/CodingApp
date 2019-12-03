@@ -28,7 +28,6 @@ class SignInActivity : AppCompatActivity() {
         startActivityForResult(
             AuthUI.getInstance()
                 .createSignInIntentBuilder()
-                .setIsSmartLockEnabled(false)//temporary till app testing.
                 .setAvailableProviders(providers)
                 .build(),
             RC_SIGN_IN)

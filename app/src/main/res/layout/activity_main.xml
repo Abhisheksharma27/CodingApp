@@ -8,25 +8,35 @@
     tools:context=".MainActivity"
     >
 
-        <TextView
-            android:layout_width="match_parent"
-            android:id="@+id/textView_home"
-            android:layout_height="180dp"
-            android:background="@drawable/banner"
-            android:gravity="center"
-            android:text="@string/learn_to_code"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorPrimary"
-            android:textSize="36sp" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView_home"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:text="@string/learn_to_code"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="480dp"
         android:id="@+id/main_listView"
         android:background="@color/colorPrimaryDark"
-        />
+        >
+
+    </ListView>
 
 
 </LinearLayout>

@@ -12,6 +12,7 @@
     <string name="log_out">Log Out</string>
     <string name="joseph">Seunghwan Kim</string>
     <string name="abhishek">Abhishek Sharma</string>
+    <string name="profile">Profile</string>
     <array name="languages">
         <item name="java">Java</item>
         <item name="html">HTML 5</item>
