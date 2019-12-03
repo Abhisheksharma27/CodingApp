@@ -1,16 +1,16 @@
 package com.example.codingapp
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_java_quiz.*
 
-class JavaQuiz : AppCompatActivity() {
+class JavaScriptQuiz : AppCompatActivity(){
 
-    private val myJavaQuestions: JavaQuestions = JavaQuestions()
+    private val myJsQuestions: JavaScriptQuestions = JavaScriptQuestions()
     private var mquestionView: TextView? = null
     private var mScoreView: TextView? = null
     private var optionButton1: Button? = null
@@ -21,10 +21,10 @@ class JavaQuiz : AppCompatActivity() {
     private var mScore = 0
     private var mQuestionNumber = 0
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_java_quiz)
-
+        setContentView(R.layout.activity_html_quiz)
         mScoreView = findViewById(R.id.score)
         mquestionView = findViewById(R.id.questionView)
         optionButton1 = findViewById(R.id.option1)
@@ -112,18 +112,13 @@ class JavaQuiz : AppCompatActivity() {
                 updateQuestion()
 
 
-
-
             }
-
-
-
         }
 
 
 
         quit.setOnClickListener {
-            val intent = Intent(applicationContext, JavaActivity::class.java )
+            val intent = Intent(applicationContext, HtmlActivity::class.java )
             startActivity(intent)
             finish()
         }
@@ -131,12 +126,12 @@ class JavaQuiz : AppCompatActivity() {
 
 
     fun updateQuestion() {
-        mquestionView?.text = myJavaQuestions.getQuestion(mQuestionNumber)
-        optionButton1?.text = myJavaQuestions.getChoice1(mQuestionNumber)
-        optionButton2?.text = myJavaQuestions.getChoice2(mQuestionNumber)
-        optionButton3?.text = myJavaQuestions.getChoice3(mQuestionNumber)
-        optionButton4?.text = myJavaQuestions.getChoice4(mQuestionNumber)
-        mAnswer = myJavaQuestions.getCorrectAnswer(mQuestionNumber)
+        mquestionView?.text = myJsQuestions.getQuestion(mQuestionNumber)
+        optionButton1?.text = myJsQuestions.getChoice1(mQuestionNumber)
+        optionButton2?.text = myJsQuestions.getChoice2(mQuestionNumber)
+        optionButton3?.text = myJsQuestions.getChoice3(mQuestionNumber)
+        optionButton4?.text = myJsQuestions.getChoice4(mQuestionNumber)
+        mAnswer = myJsQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
 
 
@@ -146,7 +141,3 @@ class JavaQuiz : AppCompatActivity() {
         mScoreView?.text = "" + mScore
     }
 }
-
-
-
-

@@ -1,16 +1,17 @@
 package com.example.codingapp
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_java_quiz.*
 
-class JavaQuiz : AppCompatActivity() {
+class PhpQuiz : AppCompatActivity() {
 
-    private val myJavaQuestions: JavaQuestions = JavaQuestions()
+
+    private val myPhpQuestions: PhpQuestions = PhpQuestions()
     private var mquestionView: TextView? = null
     private var mScoreView: TextView? = null
     private var optionButton1: Button? = null
@@ -21,10 +22,10 @@ class JavaQuiz : AppCompatActivity() {
     private var mScore = 0
     private var mQuestionNumber = 0
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_java_quiz)
-
+        setContentView(R.layout.activity_php_quiz)
         mScoreView = findViewById(R.id.score)
         mquestionView = findViewById(R.id.questionView)
         optionButton1 = findViewById(R.id.option1)
@@ -111,19 +112,13 @@ class JavaQuiz : AppCompatActivity() {
                 Toast.makeText(this, "Wrong Answer", Toast.LENGTH_SHORT).show()
                 updateQuestion()
 
-
-
-
             }
-
-
 
         }
 
 
-
         quit.setOnClickListener {
-            val intent = Intent(applicationContext, JavaActivity::class.java )
+            val intent = Intent(applicationContext, PhpActivity::class.java )
             startActivity(intent)
             finish()
         }
@@ -131,12 +126,12 @@ class JavaQuiz : AppCompatActivity() {
 
 
     fun updateQuestion() {
-        mquestionView?.text = myJavaQuestions.getQuestion(mQuestionNumber)
-        optionButton1?.text = myJavaQuestions.getChoice1(mQuestionNumber)
-        optionButton2?.text = myJavaQuestions.getChoice2(mQuestionNumber)
-        optionButton3?.text = myJavaQuestions.getChoice3(mQuestionNumber)
-        optionButton4?.text = myJavaQuestions.getChoice4(mQuestionNumber)
-        mAnswer = myJavaQuestions.getCorrectAnswer(mQuestionNumber)
+        mquestionView?.text = myPhpQuestions.getQuestion(mQuestionNumber)
+        optionButton1?.text = myPhpQuestions.getChoice1(mQuestionNumber)
+        optionButton2?.text = myPhpQuestions.getChoice2(mQuestionNumber)
+        optionButton3?.text = myPhpQuestions.getChoice3(mQuestionNumber)
+        optionButton4?.text = myPhpQuestions.getChoice4(mQuestionNumber)
+        mAnswer = myPhpQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
 
 
@@ -146,7 +141,3 @@ class JavaQuiz : AppCompatActivity() {
         mScoreView?.text = "" + mScore
     }
 }
-
-
-
-

@@ -35,6 +35,11 @@ class javascriptActivity : AppCompatActivity() {
                 startActivity(i)
             }
 
+            if(position == 2){
+                val i = Intent(applicationContext, JavaScriptQuiz::class.java)
+                startActivity(i)
+            }
+
         }
     }
 }
