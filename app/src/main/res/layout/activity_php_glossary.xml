@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhpGlossary"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTerm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor= "#222"
+            android:textSize="24sp"
+            android:text="API"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task. In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions."
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewTerm2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="CONNECTOR"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="In the MySQL documentation, the term connector refers to a piece of software that allows your application to connect to the MySQL database server. MySQL provides connectors for a variety of languages, including PHP."
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm3"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="DRIVER"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="A driver is a piece of software designed to communicate with a specific type of database server. The driver may also call a library, such as the MySQL Client Library or the MySQL Native Driver. These libraries implement the low-level protocol used to communicate with the MySQL database server."
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm4"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:text="EXTENSION"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition4"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="In the PHP documentation you will come across another term - extension. The PHP code consists of a core, with optional extensions to the core functionality. PHP's MySQL-related extensions, such as the mysqli extension, and the mysql extension, are implemented using the PHP extension framework."/>
+
+
+        <TextView
+            android:id="@+id/textViewTerm5"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="CONSTANTS"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition5"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A constant is an identifier (name) for a simple value. As the name suggests, that value cannot change during the execution of the script (except for magic constants, which aren't actually constants). A constant is case-sensitive by default. By convention, constant identifiers are always uppercase."/>
+
+        <TextView
+            android:id="@+id/textViewTerm6"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="STRINGS"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition6"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A string is series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support."/>
+
+        <TextView
+            android:id="@+id/textViewTerm7"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="RESOURCES"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition7"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A resource is a special variable, holding a reference to an external resource. Resources are created and used by special functions. See the appendix for a listing of all these functions and the corresponding resource types."/>
+
+        <TextView
+            android:id="@+id/textViewTerm8"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="OVERLOADING"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition8"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Overloading in PHP provides means to dynamically create properties and methods. These dynamic entities are processed via magic methods one can establish in a class for various action types."/>
+
+        <TextView
+            android:id="@+id/textViewTerm9"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="OPERATOR"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition9"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression)."/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JavascriptGlossary"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTerm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor= "#222"
+            android:textSize="24sp"
+            android:text="ASYNCHRONOUS"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:text="Code is asynchronous when you initiate something, forget about it, and when the result is ready you get it back without having to wait for it. The typical example is an AJAX call, which might take even seconds and in the meantime you complete other stuff, and when the response is ready, the callback function gets called. Promises and async/await are the modern way to handle async."
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewTerm2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="BLOCK"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="In JavaScript a block is delimited curly braces ({}). An if statement contains a block, a for loop contains a block."
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm3"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="CALLBACK"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition3"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="A callback is a function that’s invoked when something happens. A click event associated to an element has a callback function that’s invoked when the user clicks the element. A fetch request has a callback that’s called when the resource is downloaded."
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm4"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:text="IMMUTABILITY"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition4"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="A variable is immutable when its value cannot change after it’s created. A mutable variable can be changed. The same applies to objects and arrays."/>
+
+
+        <TextView
+            android:id="@+id/textViewTerm5"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="REASSIGNMENT"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition5"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="JavaScript with var and let declaration allows you to reassign a variable indefinitely. With const declarations you effectively declare an immutable value for strings, integers, booleans, and an object that cannot be reassigned (but you can still modify it through its methods)."/>
+
+        <TextView
+            android:id="@+id/textViewTerm6"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="SCOPE"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition6"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Scope is, referred to a variable, in what portion of a program that variable is visible. let and const have block scoping, which determines a differnet scope from values defined using var, which have function scoping."/>
+
+        <TextView
+            android:id="@+id/textViewTerm7"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="PURE FUNCTION"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition7"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A function that has no side effects (does not modify external resources), and its output is only determined by the arguments. You could call this function 1M times, and given the same set of arguments, the output will always be the same."/>
+
+        <TextView
+            android:id="@+id/textViewTerm8"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="SCOPING"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition8"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Scoping is how a programming language determines the scope of the variables and functions. We can for example have block scoping, function scoping, lexical scoping."/>
+
+        <TextView
+            android:id="@+id/textViewTerm9"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="STATELESS"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition9"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="A stateless component, function or class is also called dumb because it’s incapable of having its own data to make decisions, so its output or presentation is entirely based on its arguments. This implies that pure functions are stateless. Note: in React, what we once called stateless components are now called function components because hooks give them the ability to use state."/>
+
+    </LinearLayout>
+
+
+</ScrollView>
