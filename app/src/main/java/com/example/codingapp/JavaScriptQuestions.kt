@@ -2,13 +2,13 @@ package com.example.codingapp
 
 class JavaScriptQuestions   {
     var myQuestions = arrayOf(
-        "Which allows the removal of elements from a collection?",
-        "The Comparator interface contains the method?",
-        "Which of those is synchronized?",
-        "Iterator returned by ArrayList is?"
+        "Which is correct symbol of block in javascript?",
+        "what is this function that invoked when something happens?",
+        "'This' is that referred to a variable, in what portion of a program that variable is visible. What is 'this'?",
+        "How many times you could call pure function?"
     )
-    private var myChoices = arrayOf(arrayOf("Enumeration", "Iterator", "Both","None of the Above"), arrayOf("compareWith()", "compare()", "compareTo()", "None"), arrayOf("TreeMap", "HashMap", "TreeSet", "HashTable"), arrayOf("Fail-fast", "Fail-safe", "Both","None"))
-    private var myCorrectAnswers = arrayOf("None of the Above", "compare()", "HashTable", "Fail-fast")
+    private var myChoices = arrayOf(arrayOf("<>", "[]", "{}","()"), arrayOf("callback()", "toString()", "shift()", "values()"), arrayOf("log", "scope", "keys", "seal"), arrayOf("1 million", "2 million", "5 million","10 million"))
+    private var myCorrectAnswers = arrayOf("{}", "callback()", "scope", "1 million")
 
     fun getQuestion(a: Int): String {
         return myQuestions[a]
