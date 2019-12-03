@@ -12,13 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
         <activity android:name=".ProfileActivity"></activity>
-=======
+
         <activity android:name=".JavascriptGlossary"></activity>
         <activity android:name=".PhpGlossary" />
         <activity android:name=".HtmlGlossary" />
->>>>>>> 54aa7c74d3c9c96cab63d1ab69a2630e96bb3360
+
         <activity android:name=".JavaGlossary" />
         <activity android:name=".JavaScriptQuiz" />
         <activity android:name=".PhpQuiz" />
