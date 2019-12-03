@@ -32,6 +32,12 @@ class HtmlActivity : AppCompatActivity() {
                 val i = Intent(applicationContext, Syntax::class.java)
                 startActivity(i)
             }
+            if(position == 1){
+                val i = Intent(applicationContext, HtmlGlossary::class.java)
+                startActivity(i)
+            }
+
+
             if(position == 2){
                 val i = Intent(applicationContext, HtmlQuiz::class.java)
                 startActivity(i)

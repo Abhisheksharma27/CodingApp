@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HtmlGlossary"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTerm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor= "#222"
+            android:textSize="24sp"
+            android:text="CLASS"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="HTML elements can have one or more classes, separated by spaces. You can style elements using CSS by selecting them with their classes."
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewTerm2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="ID"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:text="An HTML element can have an id attribute to identify it. id elements should always be unique to that single element, and each element should never have more than one id."
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm3"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="HERF"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="Links tell the browser where to go using an href attribute, which stores a URL."
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTerm4"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:text="BODY"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition4"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="The body is the container for all of a page’s content. Comes after the head tag, within the overall html tag." />
+
+
+        <TextView
+            android:id="@+id/textViewTerm5"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="HEAD"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition5"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Tag that surrounds important content that is invisible to the user, but is important to the browser. Elements within this tag contain metadata about the page and links to stylesheets, scripts, etc."/>
+
+        <TextView
+            android:id="@+id/textViewTerm6"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="HEADINGS"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition6"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Heading elements like h1, h2, h3, … allow you to use six levels of document headings, ranging from largest to smallest, breaking up the document into logical sections. For example, the word ‘Headings’ above is wrapped in a h2 tag."/>
+
+        <TextView
+            android:id="@+id/textViewTerm7"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="PARAGRAPHS"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition7"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="One of the most common tags in HTML - it denotes a paragraph of text. It often has other elements nested inside of it, such as img, a,strong and em."/>
+
+        <TextView
+            android:id="@+id/textViewTerm8"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="TITLE"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition8"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="This tag tells the browser what to display as the page title at the top and tells search engines what the title of your site is. It goes inside head tags. Try and make your page titles descriptive, but not overly verbose."/>
+
+        <TextView
+            android:id="@+id/textViewTerm9"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="HORIZONAL RULES"/>
+
+        <TextView
+            android:id="@+id/textViewDefinition9"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="This tag creates a black line one pixel thick that runs the all the way across its container. It can be styled to look differently with CSS."/>
+
+    </LinearLayout>
+
+
+</ScrollView>
