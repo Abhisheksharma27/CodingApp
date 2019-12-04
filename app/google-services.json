@@ -10,20 +10,20 @@
       "client_info": {
         "mobilesdk_app_id": "1:13009034727:android:e79ab36487c1575aee3142",
         "android_client_info": {
-          "package_name": "com.learntocode.codingapp"
+          "package_name": "com.example.codingapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "13009034727-uju5uplsje4ds5ju8envrtl5doepac9u.apps.googleusercontent.com",
+          "client_id": "13009034727-ipemn1tbqchih01t8p92e1h1sm75g9d8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.learntocode.codingapp",
+            "package_name": "com.example.codingapp",
             "certificate_hash": "e0d6f8736bc020039cf143a8aaa2e21616f09a22"
           }
         },
         {
-          "client_id": "13009034727-ipemn1tbqchih01t8p92e1h1sm75g9d8.apps.googleusercontent.com",
+          "client_id": "13009034727-uju5uplsje4ds5ju8envrtl5doepac9u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
