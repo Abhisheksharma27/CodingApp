@@ -32,3 +32,9 @@ We have added a new resources tab in the homepage.
 We have also maded some UI changes to our application as well.
 
 
+
+Link for googleplay app:
+
+https://play.google.com/store/apps/details?id=com.learncode.codingapp&hl=en_CA
+
+
