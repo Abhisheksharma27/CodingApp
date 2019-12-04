@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HtmlGlossary"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTerm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor= "#222"
+            android:textSize="24sp"
+            android:text="Android Course"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linkToAndroid"
+            android:autoLink="web"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:id="@+id/textViewTerm2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="C# Course"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorNextPrimary"
+            android:textColor="#222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linkToAsp"
+            android:autoLink="web"
+
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

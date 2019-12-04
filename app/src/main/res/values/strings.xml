@@ -19,4 +19,11 @@
         <item name="javascript">JavaScript</item>
         <item name="php">PHP</item>
     </array>
+    <string name="linkToAndroid">Rich Freeman: Android Course. This is a live recoding of the course of Mobile Development at Georgian College. This course covers all the important features and aspects required to become a proficient android developer.
+        <a href="https://youtu.be/mEHu74YwYFg">https://youtu.be/mEHu74YwYFg</a></string>
+
+    <string name="linkToAsp">Rich Freeman: ASP,NET Course. This is a live recoding of the course of ASP,NET at Georgian College. This course covers all the important features and aspects required to become a proficient .NET developer.
+        <a href="https://youtu.be/1KC-cefnU1A">https://youtu.be/1KC-cefnU1A</a></string>
+
+
 </resources>

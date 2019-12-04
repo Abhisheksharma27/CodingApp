@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
         list.add(Model("Languages"))
         list.add(Model("Doubts"))
-        list.add(Model("Join Us"))
+        list.add(Model("Useful Resources"))
         list.add(Model("About Us"))
 
         //adapter
@@ -70,6 +70,11 @@ class MainActivity : AppCompatActivity() {
             }
             if(position == 1){
                 val j = Intent(applicationContext, DoubtActivity::class.java)
+                startActivity(j)
+            }
+
+            if(position == 2){
+                val j = Intent(applicationContext, UsefulResources::class.java)
                 startActivity(j)
             }
             if(position == 3){
