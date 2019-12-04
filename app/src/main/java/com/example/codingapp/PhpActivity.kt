@@ -18,10 +18,11 @@ class PhpActivity : AppCompatActivity() {
 
         //adding items to the list
 
-        list3.add(PhpModel("Syntax"))
+
         list3.add(PhpModel("Glossary"))
         list3.add(PhpModel("Quizzes"))
-        list3.add(PhpModel("Php My admin basics"))
+        list3.add(PhpModel("Updates Soon!!!"))
+
 
         //adapter
 
@@ -29,17 +30,13 @@ class PhpActivity : AppCompatActivity() {
 
         //click listener
         listView3.setOnItemClickListener{parent, view, position, id ->
-            if(position == 0){
-                val i = Intent(applicationContext, Syntax::class.java)
-                startActivity(i)
-            }
 
-            if(position == 1){
+            if(position == 0){
                 val i = Intent(applicationContext, PhpGlossary::class.java)
                 startActivity(i)
             }
 
-            if(position == 2){
+            if(position == 1){
                 val i = Intent(applicationContext, PhpQuiz::class.java)
                 startActivity(i)
             }

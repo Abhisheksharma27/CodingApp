@@ -28,7 +28,7 @@
         <TextView
             android:id="@+id/textViewDefinition"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="A Java keyword used in a class definition to specify that a class is not to be instantiated, rather inherited by other classes."
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
@@ -38,7 +38,7 @@
         <TextView
             android:id="@+id/textViewTerm2"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:text="Constructor"
             android:layout_marginTop="8dp"
             android:background="@color/colorNextPrimary"
@@ -49,7 +49,7 @@
         <TextView
             android:id="@+id/textViewDefinition2"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="A pseudo-method that creates an object. In the Java programming language, constructors are instance methods with the same name as their class"
             android:background="@color/colorPrimaryDark"
             android:textStyle="bold"
@@ -59,7 +59,7 @@
         <TextView
             android:id="@+id/textViewTerm3"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Inheritance"
             android:background="@color/colorNextPrimary"
@@ -70,7 +70,7 @@
         <TextView
             android:id="@+id/textViewDefinition3"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="The concept of classes automatically containing the variables and methods defined in their supertypes ."
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
@@ -91,7 +91,7 @@
         <TextView
             android:id="@+id/textViewDefinition4"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -113,7 +113,7 @@
         <TextView
             android:id="@+id/textViewDefinition5"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -134,7 +134,7 @@
         <TextView
             android:id="@+id/textViewDefinition6"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -155,7 +155,7 @@
         <TextView
             android:id="@+id/textViewDefinition7"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -177,7 +177,7 @@
         <TextView
             android:id="@+id/textViewDefinition8"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -198,7 +198,7 @@
         <TextView
             android:id="@+id/textViewDefinition9"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"

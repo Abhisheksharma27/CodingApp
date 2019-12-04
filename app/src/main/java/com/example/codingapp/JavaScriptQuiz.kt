@@ -18,7 +18,7 @@ class JavaScriptQuiz : AppCompatActivity(){
     private var optionButton3: Button? = null
     private var optionButton4: Button? = null
     private var mAnswer: String? = null
-    private var mScore = 0
+     var mScore = 0
     private var mQuestionNumber = 0
 
 
@@ -122,6 +122,7 @@ class JavaScriptQuiz : AppCompatActivity(){
             startActivity(intent)
             finish()
         }
+
     }
 
 
@@ -133,11 +134,16 @@ class JavaScriptQuiz : AppCompatActivity(){
         optionButton4?.text = myJsQuestions.getChoice4(mQuestionNumber)
         mAnswer = myJsQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
+        if(mQuestionNumber === 5){
+            val i = Intent(this, JavaQuizFinalActivity::class.java)
+            startActivity(i)
+            finish()
+        }
 
 
     }
 
-    private fun updateScore(point: Int) {
+    fun updateScore(point: Int) {
         mScoreView?.text = "" + mScore
     }
 }

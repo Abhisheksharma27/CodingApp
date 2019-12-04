@@ -28,7 +28,7 @@
         <TextView
             android:id="@+id/textViewDefinition"
             android:layout_width="match_parent"
-            android:layout_height="142dp"
+            android:layout_height="wrap_content"
             android:text="Code is asynchronous when you initiate something, forget about it, and when the result is ready you get it back without having to wait for it. The typical example is an AJAX call, which might take even seconds and in the meantime you complete other stuff, and when the response is ready, the callback function gets called. Promises and async/await are the modern way to handle async."
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
@@ -49,7 +49,7 @@
         <TextView
             android:id="@+id/textViewDefinition2"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="In JavaScript a block is delimited curly braces ({}). An if statement contains a block, a for loop contains a block."
             android:background="@color/colorPrimaryDark"
             android:textStyle="bold"
@@ -70,7 +70,7 @@
         <TextView
             android:id="@+id/textViewDefinition3"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="wrap_content"
             android:text="A callback is a function that’s invoked when something happens. A click event associated to an element has a callback function that’s invoked when the user clicks the element. A fetch request has a callback that’s called when the resource is downloaded."
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
@@ -91,7 +91,7 @@
         <TextView
             android:id="@+id/textViewDefinition4"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -113,7 +113,7 @@
         <TextView
             android:id="@+id/textViewDefinition5"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -134,7 +134,7 @@
         <TextView
             android:id="@+id/textViewDefinition6"
             android:layout_width="match_parent"
-            android:layout_height="114dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -155,7 +155,7 @@
         <TextView
             android:id="@+id/textViewDefinition7"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -176,7 +176,7 @@
         <TextView
             android:id="@+id/textViewDefinition8"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -197,7 +197,7 @@
         <TextView
             android:id="@+id/textViewDefinition9"
             android:layout_width="match_parent"
-            android:layout_height="174dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"

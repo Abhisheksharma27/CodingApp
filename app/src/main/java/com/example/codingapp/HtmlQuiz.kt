@@ -8,7 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_java_quiz.*
 
-class HtmlQuiz : AppCompatActivity() {
+class   HtmlQuiz : AppCompatActivity() {
 
     private val myHtmlQuestions: HtmlQuestions = HtmlQuestions()
     private var mquestionView: TextView? = null
@@ -105,12 +105,17 @@ class HtmlQuiz : AppCompatActivity() {
                 mScore++
                 updateScore(mScore)
 
-                updateQuestion()
+
+            //    updateQuestion()
                 Toast.makeText(this, "Correct Answer", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Wrong Answer", Toast.LENGTH_SHORT).show()
-                updateQuestion()
+            //    updateQuestion()
 
+                if(mQuestionNumber === 5){
+                    val i = Intent(this, JavaQuizFinalActivity::class.java)
+                    startActivity(i)
+                }
 
             }
         }
@@ -133,6 +138,12 @@ class HtmlQuiz : AppCompatActivity() {
         optionButton4?.text = myHtmlQuestions.getChoice4(mQuestionNumber)
         mAnswer = myHtmlQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
+        if(mQuestionNumber === 5){
+            val i = Intent(this, JavaQuizFinalActivity::class.java)
+            startActivity(i)
+            finish()
+        }
+
 
 
     }

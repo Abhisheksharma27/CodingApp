@@ -19,10 +19,10 @@ class javascriptActivity : AppCompatActivity() {
 
         //adding items to the list
 
-        list4.add(JavascriptModel("Syntax"))
         list4.add(JavascriptModel("Glossary"))
         list4.add(JavascriptModel("Quizzes"))
-        list4.add(JavascriptModel("Frameworks"))
+        list4.add(JavascriptModel("Updates Soon!!!"))
+
 
         //adapter
 
@@ -30,17 +30,13 @@ class javascriptActivity : AppCompatActivity() {
 
         //click listener
         listView4.setOnItemClickListener{parent, view, position, id ->
-            if(position == 0){
-                val i = Intent(applicationContext, Syntax::class.java)
-                startActivity(i)
-            }
 
-            if(position == 1){
+            if(position == 0){
                 val i = Intent(applicationContext, JavascriptGlossary::class.java)
                 startActivity(i)
             }
 
-            if(position == 2){
+            if(position == 1){
                 val i = Intent(applicationContext, JavaScriptQuiz::class.java)
                 startActivity(i)
             }

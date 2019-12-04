@@ -104,15 +104,12 @@ class JavaQuiz : AppCompatActivity() {
             if (optionButton4?.text === mAnswer) {
                 mScore++
                 updateScore(mScore)
-
-                updateQuestion()
                 Toast.makeText(this, "Correct Answer", Toast.LENGTH_SHORT).show()
+
+
+
             } else {
                 Toast.makeText(this, "Wrong Answer", Toast.LENGTH_SHORT).show()
-                updateQuestion()
-
-
-
 
             }
 
@@ -138,6 +135,13 @@ class JavaQuiz : AppCompatActivity() {
         optionButton4?.text = myJavaQuestions.getChoice4(mQuestionNumber)
         mAnswer = myJavaQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
+        if(mQuestionNumber === 5){
+            val i = Intent(this, JavaQuizFinalActivity::class.java)
+            startActivity(i)
+            finish()
+        }
+
+
 
 
     }

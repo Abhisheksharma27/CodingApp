@@ -2,13 +2,13 @@ package com.example.codingapp
 
 class PhpQuestions  {
     var myQuestions = arrayOf(
-        "what is API stands for?",
-        "which is a special variable, holding a reference to an external resource?",
+        "What does API stands for?",
+        "Which is a special variable, holding a reference to an external resource?",
         "An operator is something that doesn't takes one or more values and yields another value.",
-        "What is the value that cannot change during the execution of the script??"
+        "What is the value that cannot change during the execution of the script??",";;"
     )
-    private var myChoices = arrayOf(arrayOf("American Petroleum Institute", "Apple Pie Ice cream", "Active Pharmaceutical Ingredient","Application Programming Interface"), arrayOf("resource", "String", "constant", "Driver"), arrayOf("true", "false", ".", "."), arrayOf("constant", "count", "compact","natsort"))
-    private var myCorrectAnswers = arrayOf("Application Programming Interface", "resource", "false", "constant")
+    private var myChoices = arrayOf(arrayOf("American Petroleum Institute", "Apple Pie Ice cream", "Active Pharmaceutical Ingredient","Application Programming Interface"), arrayOf("resource", "String", "constant", "Driver"), arrayOf("true", "false", ".", "."), arrayOf("constant", "count", "compact","natsort"), arrayOf(".", ",", "/", "*"))
+    private var myCorrectAnswers = arrayOf("Application Programming Interface", "resource", "false", "constant", "*")
 
     fun getQuestion(a: Int): String {
         return myQuestions[a]

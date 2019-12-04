@@ -6,10 +6,10 @@ class HtmlQuestions  {
         "Which tag go inside head tag?",
         "HERF is that links tell the browser where to go using an href attribute, which stores a URL.",
         "Which tag include the elements such as metadata about the page and links to stylesheets, scripts?",
-        "How many levels of documents allow to use in Heading?"
+        "How many levels of documents allow to use in Heading?","."
     )
-    private var myChoices = arrayOf(arrayOf("body", "title", "div","script"), arrayOf("true", "false",".", "."), arrayOf("html", "li", "footer", "head"), arrayOf("6", "7", "8","9"))
-    private var myCorrectAnswers = arrayOf("title", "true", "head", "6")
+    private var myChoices = arrayOf(arrayOf("body", "title", "div","script"), arrayOf("true", "false",".", "."), arrayOf("html", "li", "footer", "head"), arrayOf("6", "7", "8","9"), arrayOf(".", ",", "/", "*"))
+    private var myCorrectAnswers = arrayOf("title", "true", "head", "6", ".")
 
     fun getQuestion(a: Int): String {
         return myQuestions[a]

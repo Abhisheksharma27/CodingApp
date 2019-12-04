@@ -17,10 +17,10 @@ class JavaActivity : AppCompatActivity() {
 
         //adding items to the list
 
-        list1.add(JavaModel("Object Oriented Java"))
-        list1.add(JavaModel("Syntax"))
+
         list1.add(JavaModel("Glossary"))
         list1.add(JavaModel("Quizzes"))
+        list1.add(JavaModel("Updates Soon!!!"))
 
         //adapter
 
@@ -28,17 +28,14 @@ class JavaActivity : AppCompatActivity() {
 
         //click listener
         listView1.setOnItemClickListener{parent, view, position, id ->
-            if(position == 0){
-                val i = Intent(applicationContext, ObjectOrientedJavaActivity::class.java)
-                startActivity(i)
-            }
 
-            if(position == 2){
+
+            if(position == 0){
                 val j = Intent(applicationContext, JavaGlossary::class.java)
                 startActivity(j)
             }
 
-            if(position == 3){
+            if(position == 1){
                 val j = Intent(applicationContext, JavaQuiz::class.java)
                 startActivity(j)
             }

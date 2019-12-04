@@ -28,7 +28,7 @@
         <TextView
             android:id="@+id/textViewDefinition"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task. In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions."
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
@@ -49,7 +49,7 @@
         <TextView
             android:id="@+id/textViewDefinition2"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="In the MySQL documentation, the term connector refers to a piece of software that allows your application to connect to the MySQL database server. MySQL provides connectors for a variety of languages, including PHP."
             android:background="@color/colorPrimaryDark"
             android:textStyle="bold"
@@ -70,7 +70,7 @@
         <TextView
             android:id="@+id/textViewDefinition3"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:text="A driver is a piece of software designed to communicate with a specific type of database server. The driver may also call a library, such as the MySQL Client Library or the MySQL Native Driver. These libraries implement the low-level protocol used to communicate with the MySQL database server."
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
@@ -91,7 +91,7 @@
         <TextView
             android:id="@+id/textViewDefinition4"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -113,7 +113,7 @@
         <TextView
             android:id="@+id/textViewDefinition5"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -134,7 +134,7 @@
         <TextView
             android:id="@+id/textViewDefinition6"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -155,7 +155,7 @@
         <TextView
             android:id="@+id/textViewDefinition7"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -176,7 +176,7 @@
         <TextView
             android:id="@+id/textViewDefinition8"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"
@@ -197,7 +197,7 @@
         <TextView
             android:id="@+id/textViewDefinition9"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textColor="#fff"

@@ -8,17 +8,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_logo"
-        android:label="Learn to Code"
+        android:label="LEARN TO CODE"
         android:roundIcon="@mipmap/ic_launcher_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".ProfileActivity"></activity>
-
-        <activity android:name=".JavascriptGlossary"></activity>
+        <activity android:name=".JavaQuizFinalActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".JavascriptGlossary" />
         <activity android:name=".PhpGlossary" />
         <activity android:name=".HtmlGlossary" />
-
         <activity android:name=".JavaGlossary" />
         <activity android:name=".JavaScriptQuiz" />
         <activity android:name=".PhpQuiz" />

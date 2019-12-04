@@ -133,6 +133,11 @@ class PhpQuiz : AppCompatActivity() {
         optionButton4?.text = myPhpQuestions.getChoice4(mQuestionNumber)
         mAnswer = myPhpQuestions.getCorrectAnswer(mQuestionNumber)
         mQuestionNumber++
+        if(mQuestionNumber === 5){
+            val i = Intent(this, JavaQuizFinalActivity::class.java)
+            startActivity(i)
+            finish()
+        }
 
 
     }
