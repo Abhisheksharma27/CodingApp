@@ -17,3 +17,18 @@ Join us would ask for a file of type txt or .pdf . This part will also work in t
 About us shows the team members who created this project.
 
 
+
+
+
+
+3rd part
+
+
+For this part we have moved towards the final parts of the project.
+We have added the quizzes, glossary for our initial release.
+We have also deployed the application at google play store.
+We have added a new resources tab in the homepage.
+
+We have also maded some UI changes to our application as well.
+
+
