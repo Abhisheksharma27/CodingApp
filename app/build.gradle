@@ -9,7 +9,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
+<<<<<<< HEAD
         applicationId "info.learntocode.codingapp"
+=======
+        applicationId "com.learncode.codingapp"
+>>>>>>> 3c3239577babc754f33ccf6f758ec90df27ef6d0
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

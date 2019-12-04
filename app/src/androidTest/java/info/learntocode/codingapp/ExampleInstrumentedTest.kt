@@ -1,4 +1,12 @@
+<<<<<<< HEAD:app/src/androidTest/java/info/learntocode/codingapp/ExampleInstrumentedTest.kt
 package info.learntocode.codingapp
+=======
+<<<<<<< HEAD:app/src/androidTest/java/com/learncode/codingapp/ExampleInstrumentedTest.kt
+package com.learncode.codingapp
+=======
+package com.learntocode.codingapp
+>>>>>>> 9281bb3bef09da154a2e1eba667ba14461ad21ef:app/src/androidTest/java/com/learntocode/codingapp/ExampleInstrumentedTest.kt
+>>>>>>> 3c3239577babc754f33ccf6f758ec90df27ef6d0:app/src/androidTest/java/com/learntocode/codingapp/ExampleInstrumentedTest.kt
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

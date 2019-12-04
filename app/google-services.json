@@ -10,7 +10,11 @@
       "client_info": {
         "mobilesdk_app_id": "1:13009034727:android:e79ab36487c1575aee3142",
         "android_client_info": {
+<<<<<<< HEAD
           "package_name": "infp.learntocode.codingapp"
+=======
+          "package_name": "com.learncode.codingapp"
+>>>>>>> 3c3239577babc754f33ccf6f758ec90df27ef6d0
         }
       },
       "oauth_client": [
@@ -18,7 +22,11 @@
           "client_id": "13009034727-ipemn1tbqchih01t8p92e1h1sm75g9d8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
+<<<<<<< HEAD
             "package_name": "info.learntocode.codingapp",
+=======
+            "package_name": "com.learncode.codingapp",
+>>>>>>> 3c3239577babc754f33ccf6f758ec90df27ef6d0
             "certificate_hash": "e0d6f8736bc020039cf143a8aaa2e21616f09a22"
           }
         },
