@@ -15,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "13009034727-ipemn1tbqchih01t8p92e1h1sm75g9d8.apps.googleusercontent.com",
+          "client_id": "13009034727-uju5uplsje4ds5ju8envrtl5doepac9u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.codingapp",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "client_id": "13009034727-uju5uplsje4ds5ju8envrtl5doepac9u.apps.googleusercontent.com",
+          "client_id": "13009034727-ipemn1tbqchih01t8p92e1h1sm75g9d8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
