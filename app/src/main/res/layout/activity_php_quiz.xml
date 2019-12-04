@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PhpQuiz"
+    tools:context="info.learntocode.codingapp.PhpQuiz"
     android:background="@color/colorNextPrimary">
 
     <RelativeLayout
