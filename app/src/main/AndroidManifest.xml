@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.learncode.codingapp">
+=======
+    package="com.learntocode.codingapp">
+>>>>>>> 9281bb3bef09da154a2e1eba667ba14461ad21ef
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,6 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name="com.learncode.codingapp.UsefulResources"></activity>
         <activity android:name="com.learncode.codingapp.JavaQuizFinalActivity" />
         <activity android:name="com.learncode.codingapp.ProfileActivity" />
@@ -33,13 +38,40 @@
         <activity android:name="com.learncode.codingapp.JavaActivity" />
         <activity android:name="com.learncode.codingapp.ProgrammingLanguage" />
         <activity android:name="com.learncode.codingapp.SignInActivity">
+=======
+        <activity android:name="com.learntocode.codingapp.UsefulResources"></activity>
+        <activity android:name="com.learntocode.codingapp.JavaQuizFinalActivity" />
+        <activity android:name="com.learntocode.codingapp.ProfileActivity" />
+        <activity android:name="com.learntocode.codingapp.JavascriptGlossary" />
+        <activity android:name="com.learntocode.codingapp.PhpGlossary" />
+        <activity android:name="com.learntocode.codingapp.HtmlGlossary" />
+        <activity android:name="com.learntocode.codingapp.JavaGlossary" />
+        <activity android:name="com.learntocode.codingapp.JavaScriptQuiz" />
+        <activity android:name="com.learntocode.codingapp.PhpQuiz" />
+        <activity android:name="com.learntocode.codingapp.HtmlQuiz" />
+        <activity android:name="com.learntocode.codingapp.JavaQuiz" />
+        <activity android:name="com.learntocode.codingapp.AboutUsActivity" />
+        <activity android:name="com.learntocode.codingapp.ObjectOrientedJavaActivity" />
+        <activity android:name="com.learntocode.codingapp.DoubtsListActivity" />
+        <activity android:name="com.learntocode.codingapp.DoubtActivity" />
+        <activity android:name="com.learntocode.codingapp.javascriptActivity" />
+        <activity android:name="com.learntocode.codingapp.PhpActivity" />
+        <activity android:name="com.learntocode.codingapp.HtmlActivity" />
+        <activity android:name="com.learntocode.codingapp.JavaActivity" />
+        <activity android:name="com.learntocode.codingapp.ProgrammingLanguage" />
+        <activity android:name="com.learntocode.codingapp.SignInActivity">
+>>>>>>> 9281bb3bef09da154a2e1eba667ba14461ad21ef
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name="com.learncode.codingapp.MainActivity" />
+=======
+        <activity android:name="com.learntocode.codingapp.MainActivity" />
+>>>>>>> 9281bb3bef09da154a2e1eba667ba14461ad21ef
     </application>
 
 </manifest>
