@@ -5,10 +5,11 @@ class JavaQuestions {
         "Which allows the removal of elements from a collection?",
         "The Comparator interface contains the method?",
         "Which of those is synchronized?",
-        "Iterator returned by ArrayList is?","."
+        "Iterator returned by ArrayList is?",
+         "What is the keyword that used to define a collection of method definition and constant values?"
     )
-    private var myChoices = arrayOf(arrayOf("Enumeration", "Iterator", "Both","None of the Above"), arrayOf("compareWith()", "compare()", "compareTo()", "None"), arrayOf("TreeMap", "HashMap", "HashTable", "TreeSet"), arrayOf("Fail-fast", "Fail-safe", "Both","None"), arrayOf(".", ",", "/", "*"))
-    private var myCorrectAnswers = arrayOf("None of the Above", "compare()", "HashTable", "Fail-fast", ",")
+    private var myChoices = arrayOf(arrayOf("Enumeration", "Iterator", "Both","None of the Above"), arrayOf("compareWith()", "compare()", "compareTo()", "None"), arrayOf("TreeMap", "HashMap", "HashTable", "TreeSet"), arrayOf("Fail-fast", "Fail-safe", "Both","None"), arrayOf("constructor", "interface", "inheritance", "abstract"))
+    private var myCorrectAnswers = arrayOf("None of the Above", "compare()", "HashTable", "Fail-fast", "interface")
 
     fun getQuestion(a: Int): String {
         return myQuestions[a]
